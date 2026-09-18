@@ -1,0 +1,9 @@
+﻿{
+  "name": "default",
+  "location": "restricted",
+  "browserLocation": "restricted",
+  "dnsLeaks": "prohibited",
+  "unexpectedProxy": "alert",
+  "ipv6": "monitor",
+  "telemetry": "monitor"
+}
