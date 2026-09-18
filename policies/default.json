@@ -1,9 +1,12 @@
 ﻿{
-  "name": "default",
-  "location": "restricted",
-  "browserLocation": "restricted",
-  "dnsLeaks": "prohibited",
-  "unexpectedProxy": "alert",
-  "ipv6": "monitor",
-  "telemetry": "monitor"
+  "name":"default",
+  "controls":{
+    "location":"restricted",
+    "browserLocation":"restricted",
+    "dnsLeaks":"prohibited",
+    "unexpectedProxy":"alert",
+    "ipv6":"monitor",
+    "telemetry":"monitor",
+    "firewall":"required"
+  }
 }

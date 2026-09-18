@@ -1,13 +1,8 @@
 ﻿{
-  "version": "0.1.0",
-  "profile": "default",
-  "telemetry": false,
-  "notifications": true,
-  "offlineMode": true,
-  "update": {
-    "enabled": true,
-    "interval": "7d",
-    "channel": "stable",
-    "automatic": true
-  }
+  "version":"0.2.0",
+  "phase":2,
+  "profile":"default",
+  "offlineMode":true,
+  "notifications":true,
+  "update":{"enabled":true,"interval":"7d","channel":"stable","automatic":true}
 }
