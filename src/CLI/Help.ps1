@@ -1,0 +1,72 @@
+﻿Set-StrictMode -Version Latest
+
+function Show-AegisHelp {
+    param(
+        [string]$Topic = ""
+    )
+
+    if ($Topic -eq "network") {
+        Write-Host ""
+        Write-Host "AEGIS NETWORK" -ForegroundColor Cyan
+        Write-Host ""
+        Write-Host "  aegis network"
+        Write-Host "  aegis network interfaces"
+        Write-Host "  aegis network identity"
+        Write-Host "  aegis network fingerprint"
+        Write-Host "  aegis network leaks"
+        Write-Host "  aegis network virtual"
+        Write-Host "  aegis network verify"
+        Write-Host ""
+        return
+    }
+
+    Write-Host ""
+    Write-Host "AEGIS - Adaptive Exposure Guard & Information Sanitization" -ForegroundColor Cyan
+    Write-Host ""
+    Write-Host "USAGE"
+    Write-Host "  aegis <command> [subcommand] [options]"
+    Write-Host ""
+    Write-Host "CORE"
+    Write-Host "  status             Real-time privacy/control-plane status"
+    Write-Host "  audit              Execute exposure audit"
+    Write-Host "  scan               Deep local exposure scan"
+    Write-Host "  verify             Verify active protections"
+    Write-Host "  doctor             Diagnose AEGIS installation"
+    Write-Host "  report             Generate diagnostic report"
+    Write-Host "  fingerprint        Calculate repository integrity fingerprint"
+    Write-Host "  capabilities       Show implemented capabilities"
+    Write-Host "  version             Show installed version"
+    Write-Host ""
+    Write-Host "NETWORK"
+    Write-Host "  network            Network status"
+    Write-Host "  network interfaces Network interfaces"
+    Write-Host "  network identity   Network identity observation"
+    Write-Host "  network fingerprint Network identity fingerprint"
+    Write-Host "  network leaks      Network leak checks"
+    Write-Host "  network virtual    Virtual/VPN-like interfaces"
+    Write-Host "  network verify     Network verification"
+    Write-Host ""
+    Write-Host "REMEDIATION"
+    Write-Host "  fix                Show available real remediation"
+    Write-Host "  fix firewall       Enable disabled Windows Firewall profiles"
+    Write-Host "  lockdown           Apply supported privacy remediation"
+    Write-Host ""
+    Write-Host "UPDATE / RECOVERY"
+    Write-Host "  update             Update manager status"
+    Write-Host "  rollback           Show available recovery backups"
+    Write-Host ""
+    Write-Host "OTHER"
+    Write-Host "  location           NOT IMPLEMENTED"
+    Write-Host "  browser            NOT IMPLEMENTED"
+    Write-Host "  artifacts          NOT IMPLEMENTED"
+    Write-Host "  policy             NOT IMPLEMENTED"
+    Write-Host "  history            Local event history"
+    Write-Host "  watch              NOT IMPLEMENTED"
+    Write-Host "  service            NOT IMPLEMENTED"
+    Write-Host "  test               Run AEGIS tests"
+    Write-Host ""
+    Write-Host "OPTIONS"
+    Write-Host "  --help             Show help"
+    Write-Host "  --yes              Confirm destructive/remediation action"
+    Write-Host ""
+}
