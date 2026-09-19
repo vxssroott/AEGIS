@@ -1,0 +1,23 @@
+﻿{
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": {
+      "enabled": true,
+      "automatic": true
+    },
+    "beta": {
+      "enabled": true,
+      "automatic": false
+    },
+    "nightly": {
+      "enabled": false,
+      "automatic": false
+    }
+  },
+  "updatePolicy": {
+    "requireIntegrityVerification": true,
+    "requireHealthCheck": true,
+    "backupBeforeUpdate": true,
+    "automaticRollback": true
+  }
+}

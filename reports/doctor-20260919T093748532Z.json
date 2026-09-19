@@ -1,0 +1,27 @@
+﻿{
+    "Product":  "AEGIS",
+    "Type":  "DiagnosticReport",
+    "Timestamp":  "2026-09-19T09:37:48.5326457Z",
+    "Version":  "0.0.0",
+    "Healthy":  true,
+    "Checks":  [
+                   {
+                       "Name":  "Core health",
+                       "Passed":  true,
+                       "Detail":  "Required AEGIS components"
+                   },
+                   {
+                       "Name":  "Integrity fingerprint",
+                       "Passed":  true,
+                       "Detail":  "08f13330b5dd890b8f56b3737bf0274780a029de415311bdfbaee9a63763adff"
+                   },
+                   {
+                       "Name":  "Git availability",
+                       "Passed":  true,
+                       "Detail":  "C:\\Program Files\\Git\\cmd\\git.exe"
+                   }
+               ],
+    "Failed":  [
+
+               ]
+}
