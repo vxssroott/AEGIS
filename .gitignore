@@ -16,3 +16,26 @@
 *.swp
 .DS_Store
 Thumbs.db
+
+# AEGIS runtime state
+reports/
+logs/
+data/events/
+data/reports/
+data/diagnostics/
+data/backups/
+data/updates/
+versions/current.json
+
+# PowerShell/editor/runtime noise
+*.tmp
+*.temp
+*.bak
+*.swp
+.vscode/
+.idea/
+.DS_Store
+
+# Local environment files
+.env
+.env.*
